@@ -180,7 +180,7 @@ function tampil() {
   let s = quiz[index];
 
   document.getElementById("nomor").innerHTML = 
-    "Soal " + (index + 1) + ' : <label style="font-size:11px">' + s.jenis_tes + '</label><hr>';
+     '<label style="font-size:14px">Sub Test :  ' + s.jenis_tes + '</label><hr>'+'Soal ' + (index + 1) + '';
   document.getElementById("soal").innerText = s.soal;
 
   let html = "";
